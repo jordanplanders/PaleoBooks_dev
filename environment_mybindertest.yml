@@ -1,0 +1,20 @@
+name: devtest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy=0.21.0
+  - jupyter=1.0.0
+  - pip
+  - python=3.10
+  - libstdcxx-ng=12.1.0
+  - numpy=1.22.0
+  - netcdf4=1.6.2
+  - aiohttp=3.8.3
+  - zarr=2.13.3
+  - fsspec=2022.11.0
+  - requests=2.28.2
+  - pip:
+    - setuptools==56.0.0
+    - pyleoclim==0.10.0
+    - nc-time-axis==1.4.1
