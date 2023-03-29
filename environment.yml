@@ -24,10 +24,12 @@ dependencies:
   - cftime
   - dask
   - intake
+  - climlab
   - jupyter=1.0.0
   - jupyterlab=3.5.2
   - pip:
     - setuptools
+    - pangaeapy
     - pyleoclim==0.10.0
     - nc-time-axis
     - ipympl
