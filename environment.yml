@@ -9,7 +9,7 @@ dependencies:
   # need to be specified.
   #
   - jupyterhub-singleuser>=3.0
-  - cartopy=0.21.1
+  - cartopy>=0.21.1
   - pip
   - python=3.10
   - libstdcxx-ng
