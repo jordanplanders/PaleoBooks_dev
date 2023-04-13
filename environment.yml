@@ -17,7 +17,7 @@ dependencies:
   - aiohttp
   - zarr
   - s3fs
-  - fsspec
+  - fsspec=2023.3.0
   - requests
   - xarray
   - cftime
