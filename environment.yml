@@ -8,7 +8,7 @@ dependencies:
   - numpy<1.24.0
   - matplotlib
   - pandas
-  - xarray
+  - xarray=2023.2.0
   - xesmf
   - numba
   - cartopy
