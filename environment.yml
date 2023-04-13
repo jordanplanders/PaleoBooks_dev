@@ -12,7 +12,6 @@ dependencies:
   - cartopy>=0.21.1
   - pip
   - python=3.10
-  - libstdcxx-ng
   - numpy
   - netcdf4
   - aiohttp
@@ -34,4 +33,5 @@ dependencies:
     - nc-time-axis
     - ipympl
     - folium
-
+    - intake-esm
+    - cmocean
