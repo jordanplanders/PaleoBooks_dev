@@ -14,8 +14,8 @@ dependencies:
   - python=3.10
   - libstdcxx-ng=12.1.0
   - numpy<1.24.0
-  - xarray=2023.2.0
   - pandas=2.0.0
+  - xarray=2023.2.0
   - intake=0.6.8
   - intake-esm=2022.9.18
   - netcdf4=1.6.2
