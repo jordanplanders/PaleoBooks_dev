@@ -31,5 +31,7 @@ dependencies:
   - jupyterlab=3.5.2
   - pip:
     - setuptools==56.0.0
+    - pyleoclim==0.10.0
+    - pangaeapy
     - nc-time-axis==1.4.1
 
