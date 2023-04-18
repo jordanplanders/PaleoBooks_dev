@@ -39,4 +39,4 @@ dependencies:
         - ipympl
         - folium
         - cmocean
-        - xarray=2023.2.0
+        - xarray==2023.2.0
