@@ -22,6 +22,7 @@ dependencies:
   - cftime
   - nc-time-axis
   - gcsfs
+  - s3fs
   - act-atmos
   - seaborn
   - esgf-pyclient
