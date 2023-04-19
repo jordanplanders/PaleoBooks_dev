@@ -1,18 +1,19 @@
-name: devtest
+name: pythia_cookbook_env
 channels:
   - conda-forge
   - pyviz
 dependencies:
   - jupyterlab
   - python
+  - cartopy>=0.21.1
   - numpy<1.24.0
   - matplotlib
+  - climlab
   - pandas
   - xarray
   - xesmf
   - xhistogram
   - numba
-  - cartopy
   - dask
   - dask-gateway
   - tqdm
