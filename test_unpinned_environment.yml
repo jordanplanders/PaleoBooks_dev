@@ -1,0 +1,68 @@
+name: devtest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # jupyterhub-singleuser version 3 or greater is a requirement for working well
+  # with a JupyterHub such as at https://linkedearth.2i2c.cloud. After
+  # https://github.com/jupyterhub/repo2docker/pull/1239 is merged, this doesn't
+  # need to be specified.
+  #
+    - jupyterhub-singleuser>=3.0
+    - jupyterlab
+    - python=3.10
+    - cartopy>=0.21.1
+    - numpy<1.24.0
+    - matplotlib
+    - gcsfs
+    - s3fs
+    - intake
+    - intake-esm
+    - climlab
+    - pandas
+    - xarray
+    - numba
+    - dask
+    - tqdm
+    - fsspec
+    - cftime
+    - nc-time-axis
+    - seaborn
+    - jupyter=1.0.0
+    - jupyterlab=3.5.2
+    - pip:
+        - setuptools
+        - pangaeapy
+        - pyleoclim
+        - ipympl
+        - folium
+        - cmocean
+        - xarray==2023.2.0
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - jupyterlab
+  - python
+  - numpy<1.24.0
+  - matplotlib
+  - climlab
+  - pandas
+  - xarray
+  - xesmf
+  - xhistogram
+  - numba
+  - cartopy
+  - dask
+  - dask-gateway
+  - tqdm
+  - intake
+  - intake-esm
+  - fsspec
+  - cftime
+  - nc-time-axis
+  - gcsfs
+  - s3fs
+  - act-atmos
+  - seaborn
+  - esgf-pyclient
