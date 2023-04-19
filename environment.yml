@@ -12,7 +12,7 @@ dependencies:
   - xesmf
   - xhistogram
   - numba
-  - cartopy>=0.21.1
+  - cartopy
   - dask
   - dask-gateway
   - tqdm
